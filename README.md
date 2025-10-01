@@ -1,1 +1,0 @@
-https://github.com/a-abdulova/posmotri-v-okno-fd
