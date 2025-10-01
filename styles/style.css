@@ -198,7 +198,7 @@ ol {
 .search-form__textfield {
   color: #fff;
   font: inherit;
-  background-color: #1b1919;
+  background-color: transparent;
   border: none;
   border-top: 1px solid #fff;
   border-bottom: 1px solid #fff;
@@ -245,16 +245,18 @@ ol {
   text-decoration: underline;
 }
 
-.search-form__checkbox-list .search-form__label:has(.search-form__checkbox:focus-visible) {
+.search-form__checkbox-list
+  .search-form__label:has(.search-form__checkbox:focus-visible) {
   outline: 1px solid #fff;
   outline-offset: 2px;
 }
 
 .button {
   font: inherit;
+  font-weight: 700;
   color: #fff;
   background: transparent;
-  border: 1px solid #fff;
+  border: 1px solid currentColor;
   padding: 4px 16px;
   cursor: pointer;
   text-align: center;
